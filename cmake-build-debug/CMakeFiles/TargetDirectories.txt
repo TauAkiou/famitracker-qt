@@ -1,0 +1,4 @@
+/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/CMakeFiles/famitracker_qt.dir
+/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/CMakeFiles/famitracker_qt_autogen.dir

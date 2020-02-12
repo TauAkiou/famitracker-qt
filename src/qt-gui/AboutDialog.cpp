@@ -3,6 +3,7 @@
 #include <QFile>
 #include <QTextStream>
 #include <QPixmap>
+#include <QIcon>
 
 namespace gui
 {

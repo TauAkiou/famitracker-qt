@@ -2,10 +2,11 @@
 #include <boost/thread/mutex.hpp>
 #include "alsa.hpp"
 #include "core/time.hpp"
+#include "jack.hpp"
 
 core_api_SoundSink * sound_create()
 {
-  return new AlsaSound;
+  return new JackSound;
 }
 
 struct _alsasound_threading

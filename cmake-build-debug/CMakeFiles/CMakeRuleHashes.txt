@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+53270c4d14bfc9c6edba873aefd8eab6 CMakeFiles/famitracker_qt_autogen

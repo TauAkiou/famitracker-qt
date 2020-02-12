@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="famitracker_qt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\;CMake Files\cmake\;CMake Files\cmake\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="famitracker_qt">
+				<Option output="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/famitracker_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/famitracker_qt_autogen/include"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/build"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/core"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/core/common"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Blip_Buffer"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/pixelfonts"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/pixelfonts/vincent"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/sound"/>
+					<Add directory="/usr/include/qt5"/>
+					<Add directory="/usr/include/qt5/QtWidgets"/>
+					<Add directory="/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/lib64/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 famitracker_qt"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="famitracker_qt/fast">
+				<Option output="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/famitracker_qt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/famitracker_qt_autogen/include"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/build"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/core"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/core/common"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Blip_Buffer"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/pixelfonts"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/pixelfonts/vincent"/>
+					<Add directory="/home/robin@skaia.net/git/famitracker-qt/src/sound"/>
+					<Add directory="/usr/include/qt5"/>
+					<Add directory="/usr/include/qt5/QtWidgets"/>
+					<Add directory="/usr/include/qt5/QtGui"/>
+					<Add directory="/usr/include/qt5/QtCore"/>
+					<Add directory="/usr/lib64/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 famitracker_qt/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="famitracker_qt_autogen">
+				<Option working_dir="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 famitracker_qt_autogen"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/cmake-build-debug/famitracker_qt_autogen/mocs_compilation.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/common.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/common/libraries.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/common/platform.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/io.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/io.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/ringbuffer.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/soundsink.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/soundsink.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/threadpool.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/threadpool.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/time.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/core/types.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/defaults.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/emu2149.c">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/emu2149.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/2413tone.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/APU.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/APU.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Blip_Buffer/Blip_Buffer.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Blip_Buffer/Blip_Buffer.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Channel.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/DPCM.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/DPCM.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/External.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/FDS.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/FDS.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/FDSSound.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/FDSSound.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/MMC5.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/MMC5.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Mixer.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Mixer.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/N106.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/N106.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Noise.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Noise.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/S5B.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/S5B.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Square.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Square.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Triangle.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/Triangle.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/VRC6.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/VRC6.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/VRC7.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/VRC7.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/emu2413.c">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/emu2413.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/APU/vrc7tone.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/App.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/App.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelHandler.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelHandler.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelMap.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelMap.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Channels2A03.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Channels2A03.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelsFDS.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelsFDS.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelsMMC5.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelsMMC5.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelsVRC6.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelsVRC6.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelsVRC7.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/ChannelsVRC7.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Common.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/CustomExporterInterfaces.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Document.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Document.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/FSettings.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/FamiTrackerTypes.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/FtmDocument.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/FtmDocument.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Instrument.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Instrument.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Instrument2A03.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/InstrumentFDS.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/InstrumentVRC6.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/InstrumentVRC7.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/PatternData.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/PatternData.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Sequence.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/Sequence.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/SoundGen.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/SoundGen.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/TrackerChannel.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/TrackerChannel.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/TrackerController.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/TrackerController.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/common.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers/drv_2a03.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers/drv_fds.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers/drv_mmc5.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers/drv_mode1.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers/drv_mode2.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers/drv_n163.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers/drv_vrc6.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/drivers/drv_vrc7.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/exceptions.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/exceptions.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/types.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/wavoutput.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/famitracker-core/wavoutput.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/parse_arguments.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/parse_arguments.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/AboutDialog.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/AboutDialog.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/CreateWAV.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/CreateWAV.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/DocInfo.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/DocInfo.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/FrameView.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/FrameView.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/GUI.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/GUI.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/GUI_App.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/GUI_App.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/GUI_ThreadPool.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/GUI_ThreadPool.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/InstrumentEditor.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/InstrumentEditor.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/InstrumentEditorTypes.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/InstrumentEditorTypes.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/MainWindow.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/MainWindow.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/ModuleProperties.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/ModuleProperties.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/PatternView.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/PatternView.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/RowPages.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/RowPages.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/SequenceEditor.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/SequenceEditor.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/Settings.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/Settings.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/main.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/pixelfonts/vincent/vincent.h">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/styles.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/qt-gui/styles.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/sound/alsa.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/sound/alsa.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/sound/jack.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/sound/jack.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/sound/soundthread.cpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/sound/soundthread.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/src/version.hpp">
+			<Option target="famitracker_qt"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk2ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QBB10StylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QCleanlooksStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QGtk2StylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QMotifStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/../../../../usr/lib64/cmake/Qt5Widgets/Qt5Widgets_QPlastiqueStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/robin@skaia.net/git/famitracker-qt/cmake/modules/FindJACK.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
